@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# NessusMD specific
+# Block Nessus scan files (may contain sensitive data)
+*.nessus
+
+# Block generated markdown reports (may contain sensitive data)
+*.md
+
+# But allow documentation and example files
+!README.md
+!USAGE.md
+!examples/*.md
